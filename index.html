@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>mkDEMO</title>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="header-logo"></div>
+			<ul class="header-list">
+				<li><a href="javascript:;">课程</a></li>
+				<li><a href="javascript:;">职业路径</a></li>
+				<li><a href="javascript:;">实战</a></li>
+				<li><a href="javascript:;">袁问</a></li>
+				<li><a href="javascript:;">手记</a></li>
+			</ul>
+			<div class="header-search">
+				<input type="text">
+				<span class="header-search-text"><a href="javascript:;">爬虫</a></span>
+				<span class="header-search-icon"></span>
+				<ul class="header-search-list">
+					<li><a href="javascript:;">ajax</a></li>
+					<li><a href="javascript:;">html5开发webapp阅读</a></li>
+					<li><a href="javascript:;">bootstrap</a></li>
+					<li><a href="javascript:;">移动</a></li>
+					<li><a href="javascript:;">zepto</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="show-box">
+			<div class="show-picture">
+				<img src="image/1.jpg" alt="">
+				<img src="image/2.jpg" alt="">
+				<img src="image/3.jpg" alt="">
+				<img src="image/4.jpg" alt="">
+				<img src="image/5.jpg" alt="">
+			</div>
+			<ul class="show-ctrl">
+				<li class="show-ctrl-active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="show-button">
+				<span class="fl-span">&lt;</span>
+				<span class="fr-span">&gt;</span>
+			</div>
+			<div class="show-list">
+				<ul class="show-list-items">
+					<li>
+						<div class="tittle">前端开发</div>
+						<div class="icon">&gt;</div>
+					</li>
+					<li>
+						<div class="tittle">后端开发</div>
+						<div class="icon">&gt;</div>
+					</li>
+					<li>
+						<div class="tittle">移动开发</div>
+						<div class="icon">&gt;</div>
+					</li>
+					<li>
+						<div class="tittle">数据库</div>
+						<div class="icon">&gt;</div>
+					</li>
+					<li>
+						<div class="tittle">云计算&大数据</div>
+						<div class="icon">&gt;</div>
+					</li>
+					<li>
+						<div class="tittle">运维&测试</div>
+						<div class="icon">&gt;</div>
+					</li>
+					<li>
+						<div class="tittle">UI设计</div>
+						<div class="icon">&gt;</div>
+					</li>
+				</ul>
+				<ul class="show-list-div">
+					<li class="show-list-div-li" style="display: none;"> <!-- 第一个 -->
+						<h2>分类目录</h2>
+						<ul>
+							<li class="tittle"><a href="javascript:;">HTML/CSS</a></li>
+							<li class="tittle"><a href="javascript:;">javaScript</a></li>
+							<li class="tittle"><a href="javascript:;">jQuery</a></li>
+						</ul>
+						<ul>
+							<li class="tittle"><a href="javascript:;">html5</a></li>
+							<li class="tittle"><a href="javascript:;">CSS3</a></li>
+							<li class="tittle"><a href="javascript:;">Node.js</a></li>
+							<li class="tittle"><a href="javascript:;">AngularJS</a></li>
+							<li class="tittle"><a href="javascript:;">Bootstrap</a></li>
+							<li class="tittle"><a href="javascript:;">React</a></li>
+							<li class="tittle"><a href="javascript:;">SASS/LESS</a></li>
+							<li class="tittle"><a href="javascript:;">Vue.js</a></li>
+							<li class="tittle"><a href="javascript:;">WebApp</a></li>
+						</ul>
+						<h3>课程推荐</h3>
+						<ul>
+							<li class="show-list-div-li-active"><span class="tittle-name"><a href="javascript:;">职业路径</a></span><span class="tittle-text"><a href="javascript:;">前端小白入门手册系列课程</a></span></li>
+							<li class="show-list-div-li-active"><span class="tittle-name"><a href="javascript:;">职业路径</a></span><span class="tittle-text"><a href="javascript:;">HTML5与CSS3实现动态网页系列课程</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">带你入门Vue2.0以及学习实战项目</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">React.js入门与实践项目 开发适配PC及移动端新闻头条平台</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">重拾CSS的乐趣</a></span></li>
+						</ul>
+					</li>
+					<li class="show-list-div-li" style="display:none;"> <!-- 第二个 -->
+						<h2>分类目录</h2>
+						<ul>
+							<li class="tittle"><a href="javascript:;">PHP</a></li>
+							<li class="tittle"><a href="javascript:;">java</a></li>
+							<li class="tittle"><a href="javascript:;">Python</a></li>
+							<li class="tittle"><a href="javascript:;">C</a></li>
+							<li class="tittle"><a href="javascript:;">C++</a></li>
+							<li class="tittle"><a href="javascript:;">Go</a></li>
+							<li class="tittle"><a href="javascript:;">C#</a></li>
+							<li class="tittle"><a href="javascript:;">Ruby</a></li>
+						</ul>
+						<h3>课程推荐</h3>
+						<ul>
+							<li class="show-list-div-li-active"><span class="tittle-name"><a href="javascript:;">职业路径</a></span><span class="tittle-text"><a href="javascript:;">java基础语法与常用工具类系列课程</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">Python分布式爬虫打造搜索引擎 Scrapy精讲</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">高性能高可用Yii2.0电商平台 高级组件 MySQL LVS</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">模式的秘密---模板方法模式</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">Hibernate缓存策略</a></span></li>
+						</ul>
+					</li>
+					<li class="show-list-div-li" style="display:none;"> <!-- 第三个 -->
+						<h2>分类目录</h2>
+						<ul>
+							<li class="tittle"><a href="javascript:;">Android</a></li>
+							<li class="tittle"><a href="javascript:;">iOS</a></li>
+							<li class="tittle"><a href="javascript:;">Unity 3D</a></li>
+							<li class="tittle"><a href="javascript:;">Cocos2d-x</a></li>
+						</ul>
+						<h3>课程推荐</h3>
+						<ul>
+							<li class="show-list-div-li-active"><span class="tittle-name"><a href="javascript:;">职业路径</a></span><span class="tittle-text"><a href="javascript:;">Android网络与数据存储系列课程</a></span></li>
+							<li class="show-list-div-li-active"><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">IOS基础语法与常用组件系列课程</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">react native开发跨平台Github app</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">组件化开发完成AndiroidApp 开发同时封装出通用SDK</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">手机服务器微架构设计与实现</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">Unity3D-万圣前夜之惊声尖笑</a></span></li>
+						</ul>
+					</li>
+					<li class="show-list-div-li" style="display:none;"> <!-- 第四个 -->
+						<h2>分类目录</h2>
+						<ul>
+							<li class="tittle"><a href="javascript:;">MySQL</a></li>
+							<li class="tittle"><a href="javascript:;">MongoDB</a></li>
+							<li class="tittle"><a href="javascript:;">Oracle</a></li>
+							<li class="tittle"><a href="javascript:;">SQL Server</a></li>
+						</ul>
+						<h3>课程推荐</h3>
+						<ul>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">高性能高可用Yii2.0电商平台 高级组件 MySQL LVS</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">高性能可扩展MySQL数据库设计及架构优化 电商项目</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">MongoDB复制集—复制集安全</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">数据库设计那些事</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">MongoDB地理数据模块与MongoGIS</a></span></li>
+						</ul>
+					</li>
+					<li class="show-list-div-li" style="display:none;"> <!-- 第5个 -->
+						<h2>分类目录</h2>
+						<ul>
+							<li class="tittle"><a href="javascript:;">大数据</a></li>
+							<li class="tittle"><a href="javascript:;">云计算</a></li>
+						</ul>
+						<h3>课程推荐</h3>
+						<ul>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">扛得住的MySQL数据库架构</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">走近大数据之Hive入门</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">Python在数据科学中的应用</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">Python-走进Requests库</a></span></li>
+						</ul>
+					</li>
+					<li class="show-list-div-li" style="display:none;"> <!-- 第6个 -->
+						<h2>分类目录</h2>
+						<ul>
+							<li class="tittle"><a href="javascript:;">测试</a></li>
+							<li class="tittle"><a href="javascript:;">Linux</a></li>
+						</ul>
+						<h3>课程推荐</h3>
+						<ul>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">Android自动化测试实战 工具 框架 脚本</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">Android专项测试-Python篇 10年测试经验讲师</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">Android App专项测试-压力测试篇</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">Linux服务管理</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">课程</a></span><span class="tittle-text"><a href="javascript:;">接口测试基础之入门篇</a></span></li>
+						</ul>
+					</li>
+					<li class="show-list-div-li" style="display:none;"> <!-- 第7个 -->
+						<h2>分类目录</h2>
+						<ul>
+							<li class="tittle"><a href="javascript:;">动画动效</a></li>
+							<li class="tittle"><a href="javascript:;">APPUI设计</a></li>
+							<li class="tittle"><a href="javascript:;"> 设计工具</a></li>
+							<li class="tittle"><a href="javascript:;">设计基础</a></li>
+						</ul>
+						<h3>课程推荐</h3>
+						<ul>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">拍摄与剪辑“怀孕日记”</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">PS入门基础-魔幻调色</a></span></li>
+							<li><span class="tittle-name"><a href="javascript:;">实战</a></span><span class="tittle-text"><a href="javascript:;">Axure入门初体验</a></span></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="path-picture">
+			<ul>
+				<li><a href="javascript:;"><img src="image/path_1.png" alt=""></a></li>
+				<li><a href="javascript:;"><img src="image/path_2.png" alt=""></a></li>
+				<li><a href="javascript:;"><img src="image/path_3.png" alt=""></a></li>
+				<li><a href="javascript:;"><img src="image/path_4.png" alt=""></a></li>
+			</ul>
+		</div>
+		<div class="list-container">
+			<div class="list-item">
+				<h1>实战推荐</h1>
+				<ul>
+					<li>
+						<a href="javascript:;">
+							<div class="list-item-top list-item-top-bg1">
+								<span>C</span>
+								<span>C++</span>
+								<span>Go</span>
+							</div>
+							<div class="list-item-content">
+								<h2>算法与数据结构C++精讲</h2>
+								<p>深入讲解面试和实际开发中都会遇到的算法和数据结构问题</p>
+								<div class="list-item-content-num">
+									<span>1587人在学</span>
+									<span class="list-item-content-num-fr">$148.00</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<div class="list-item-top list-item-top-bg2">
+								<span>JavaScript</span>
+								<span>WebApp</span>
+							</div>
+							<div class="list-item-content">
+								<h2>Vue.js高仿饿了吗外卖App最火前端框架</h2>
+								<p>vue.js兼具angular.js和react.js的有点，宾提出他们的...</p>
+								<div class="list-item-content-num">
+									<span>2000人在学</span>
+									<span class="list-item-content-num-fr">$198.00</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<div class="list-item-top list-item-top-bg3">
+								<span>Python</span>
+							</div>
+							<div class="list-item-content">
+								<h2>Python高级编程技巧实战</h2>
+								<p>精选50个python训练任务，提升实战技能与高效编程技巧</p>
+								<div class="list-item-content-num">
+									<span>1000人在学</span>
+									<span class="list-item-content-num-fr">$168.00</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<div class="list-item-top list-item-top-bg4">
+								<span>CSS/HTML</span>
+								<span>CSS3</span>
+							</div>
+							<div class="list-item-content">
+								<h2>所向披靡的响应式开发</h2>
+								<p>用一套代码开发出不受设备闲置的型号</p>
+								<div class="list-item-content-num">
+									<span>2500人在学</span>
+									<span class="list-item-content-num-fr">$112.00</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<div class="list-item-top list-item-top-bg5">
+								<span>PHP</span>
+								<span>MySQL</span>
+							</div>
+							<div class="list-item-content">
+								<h2>高性能高可用yii2.0店商品台 高级组件</h2>
+								<p>进阶更高的yii2.0开发，获得2-3年实战经验</p>
+								<div class="list-item-content-num">
+									<span>111人在学</span>
+									<span class="list-item-content-num-fr">$399.00</span>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
